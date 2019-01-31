@@ -3,7 +3,9 @@ public class Rectangle extends Shape{
 		System.out.println("I am a rectangle!");
 	}
 	
-	public void Rectangle(String color){
-		this.color = color;
+	public void Rectangle(Int xLowerLeftCorner, Int yLowerLeftCorner){
+		this.x = xLowerLeftCorner;
+		this.y = yLowerLeftCorner;
+		
 	}
 }
